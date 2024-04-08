@@ -1,0 +1,12 @@
+package sample;
+
+public class test {
+
+    public static void main(String[] args) {
+        System.out.println("kiramax");
+        System.out.println("Java");
+        System.out.println("学習を始めましょう！");
+
+    }
+
+}
