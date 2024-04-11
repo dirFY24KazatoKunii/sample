@@ -3,18 +3,15 @@ package sample;
 public class IfSample {
 
     public static void main(String[] args) {
-        var score = 99 ; // 成績
-
-        if (score == 100) {
-            System.out.println("満点です！");
-        }else if (score > 80 && score < 100){
-            System.out.println("よくできました。") ;
-        }else if (score > 60){
-            System.out.println("合格です");
-        }else {
-            System.out.println("赤点です");
+        int a = 5, b = 5, c = 5;
+        String result;
+        if (a==b && b==c && a==c) {
+            System.out.println("正三角形");
+        } else {
+            System.out.println("正三角形ではない");
         }
     }
 
 }
+
 
